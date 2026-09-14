@@ -62,5 +62,11 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3",
     "vite": "^6.1.0"
+  },
+  "allowScripts": {
+    "@firebase/util@1.15.3": true,
+    "core-js@3.50.0": true,
+    "esbuild@0.25.12": true,
+    "protobufjs@7.6.6": true
   }
 }
