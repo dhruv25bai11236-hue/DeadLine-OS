@@ -17,7 +17,7 @@ const Timeline = lazy(() => import('@/pages/Timeline'));
 const Assignments = lazy(() => import('@/pages/Assignments'));
 const AssignmentDetail = lazy(() => import('@/pages/AssignmentDetail'));
 const Analytics = lazy(() => import('@/pages/Analytics'));
-const Settings = lazy(() => import('@/pages/Settings')); // <-- Added
+const Settings = lazy(() => import('@/pages/settings')); // <-- Added
 
 const LoadingFallback = () => (
   <div className="flex h-screen w-screen items-center justify-center">
